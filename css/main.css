@@ -88,3 +88,15 @@ body{
     letter-spacing: var(--typography-1-letter-spacing);
     font-weight: var(--typography-1-font-weight);
 }
+
+.sr-only{
+    position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border-width: 0;
+}
